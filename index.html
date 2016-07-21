@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Hangman</title>
+</head>
+<body>
+ <div class="title">Hangman</div>
+<div class="main">
+  
+ 
+	<div class="singer-image">
+	<p>World famous singer</p>
+		<img id="singerImg" width="200" />
+
+	<div>
+		<iframe width="200" height="150" id="singerClip" frameborder="0" allowfullscreen></iframe>
+	</div>
+		
+	</div>
+	<div class="play-area">
+		<p>Press Any Key To Get Started!</p>
+		<!-- <div id="wins">Wins<span></span></div> -->
+		
+		<p><span id="yourLetter">Wins</span></p>
+		<p><span id="Letter"></span></p>
+
+
+
+		<p>Current Word</p>
+		
+		<div>
+		<input id="userInput" maxlength="1"  type="text" class="input"  onkeyup="updateMyGuess()" />
+		<div id="correct">
+
+		</div>
+			<div>Win <span id="winCount"></span></div>
+			<div>Lost <span id="lostCount"></span></div>
+		</div>
+		
+		<p>Number of guessess remaining</p>
+		<div id="countDown">12</div>
+		<p>Letters already guessed</p>
+		<div id="results"></div>
+   
+    </div>
+	</div>
+
+	<script src="assets/javascript/game.js"></script>
+	</body>
+	
+</html>

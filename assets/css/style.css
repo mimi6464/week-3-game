@@ -1,0 +1,54 @@
+body
+{
+ background-color: #000;
+ color:#FFF;
+}
+
+.main
+{
+	width: 960px !important;
+	margin: 10px auto;
+}
+.play-area,
+.singer-image
+{
+	display: inline-block;
+	border-style: dotted;
+	border-width: 3px;
+	border-color: #FFF;
+	min-width: 400px;
+	min-height:600px;
+	vertical-align: top;
+	padding: 10px;
+	
+}
+.wins {
+	display: inline-block;
+}
+.play-area
+{
+	text-align: center;
+
+}
+.play-area p
+{
+	margin: 40px;
+}
+.input
+{
+	border: 0px;
+	border-bottom: 1px solid #FFF;
+	width: 20px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.title
+{
+	font-size: 46px;
+	color: #35F51B;
+	text-align: center;
+}
+div
+{
+	margin-top:10px;
+}
